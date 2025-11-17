@@ -145,32 +145,23 @@ python main.py
 
 ## Основные функции
 
-### split_text_into_chunks(text)
-Разбиение текста на токенные чанки.
+- split_text_into_chunks(text) - Разбиение текста на токенные чанки.
 
-### create_embeddings_batch(texts)
-Создание эмбеддингов батчами, обработка длинных текстов.
+- create_embeddings_batch(texts) - Создание эмбеддингов батчами, обработка длинных текстов.
 
-### load_or_create_train_embeddings()
-Кеширование эмбеддингов обучающих данных.
+- load_or_create_train_embeddings() - Кеширование эмбеддингов обучающих данных.
 
-### create_tfidf_index(texts)
-Создание TF-IDF матрицы и векторизатора.
+- create_tfidf_index(texts) - Создание TF-IDF матрицы и векторизатора.
 
-### reciprocal_rank_fusion()
-Векторизованная реализация RRF.
+- reciprocal_rank_fusion() - Векторизованная реализация RRF.
 
-### search_relevant_docs_optimized()
-Объединённый поиск документов.
+- search_relevant_docs_optimized() - Объединённый поиск документов.
 
-### answer_generation(question, context)
-Генерация ответа LLM на основе RAG-контекста.
+- answer_generation(question, context) - Генерация ответа LLM на основе RAG-контекста.
 
-### process_single_question_safe()
-Функция обработки одного вопроса с retry.
+- process_single_question_safe() - Функция обработки одного вопроса с retry.
 
-### load_progress(), save_progress()
-Механизм восстановления выполнения.
+- load_progress(), save_progress() - Механизм восстановления выполнения.
 
 ---
 
