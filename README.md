@@ -110,8 +110,8 @@ train_data.csv
 
 ### 1. Клонирование репозитория
 ```bash
-git clone <URL вашего репозитория>
-cd <имя_репозитория>
+git clone https://github.com/vvwsL/Fusion-RAG.git
+cd Fusion-RAG
 ```
 
 ### 2. Установка зависимостей
